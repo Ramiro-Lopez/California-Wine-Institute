@@ -1,5 +1,10 @@
 # California-Wine-Institute
 
-# test
+# Data Dictionary
+
+|Feature|Description|
+|-|-|
+|Alchohol|alcohol content|
+
 
 Some text here
