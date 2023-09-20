@@ -22,7 +22,7 @@ There's a ton that goes into making a great wine (besides grapes that is) and we
 |density|How dense compared to water (g/mL)|
 |pH|amount of pH|
 |sulphates|amount of sulphates|
-|wine_color|Color of wine, 0 : White Wine, 1: Red Wine|
+|wine_color|Color of wine, 0:White Wine, 1:Red Wine|
 ---
 
 # Project plan
@@ -32,11 +32,13 @@ There's a ton that goes into making a great wine (besides grapes that is) and we
 - Begin cleaning joined data
 - Establish Initial Hypotheses 
 - Explore new dataframe and perform feature selection
-- 
+- Begin clustering with selected features
+- Model ideal clusters and key drivers
 ---
 
-# Initial questions
-- 
+# Initial assumptions
+- Higher alcohol content is indicative of higher quality wine
+- Clustering will play a pivotal role in improving predictive accuracy
 ---
 
 # Conclusion
@@ -44,4 +46,8 @@ There's a ton that goes into making a great wine (besides grapes that is) and we
 ---
 
 # How to reproduce your work
-- 
+- Create a data.world account and download both the red and white wines from "Wine Quality"
+- pull data using function wrangle_wine from wine_acquire.py
+- split data to train, validate, and test, stratifying on "quality" and using a random state of 117
+- use kmeans to cluster data with n_clusters = 3
+---
