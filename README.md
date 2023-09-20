@@ -42,7 +42,8 @@ There's a ton that goes into making a great wine (besides grapes that is) and we
 ---
 
 # Conclusion
-- 
+- Using clustering on key features results in an increase in predictive accuracy and a reduction of overfitting.
+- There are a ton of variables that define wine quality but by using classification and our key features, we can reliably predict it.
 ---
 
 # How to reproduce your work
