@@ -27,7 +27,7 @@ Create clusters to imporove model performance
 ---
 
 # Project plan
-- Gather Wine Quality csvs from Data.world
+- Include red and white wine csv in folder before acquiring
 - Bring files into python and join the data, seperating by color of wine
 - Take initial looks and get a brief understanding of features
 - Begin cleaning joined data
